@@ -12,5 +12,5 @@ else
   fi
 fi
 
-export P2_DIRECTOR_HOME=/home/murphy/Dev/EclipseRTP2DirectorExtended-3.7.0.v20110427
+export P2_DIRECTOR_HOME=/home/murphy/tools/EclipseRTP2DirectorExtended-3.7.0.v20110427
 export MAVEN3_HOME=/home/murphy/Dev/apache-maven-3.0.3
