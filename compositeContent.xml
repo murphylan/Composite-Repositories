@@ -7,6 +7,7 @@
   <children size='4'>
     <child location='../eclipse/updates/3.7milestones/S-3.7RC5-201106131736' />
     <child location='../eclipse/org/releases/indigo/current' />
+    <child location='../eclipse/org/jetty/updates/jetty-rt-3.7-N-builds/8.0.0.M3-SNAPSHOT' />
     <child location='../spring/org/springframework/current' />
     <child location='../springdm/org/springframework/osgi/current' />
   </children>
