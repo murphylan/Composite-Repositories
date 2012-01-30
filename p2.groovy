@@ -10,9 +10,11 @@ def metadataXml = new MarkupBuilder(metadataWriter)
   <properties size='1'>
     <property name='p2.timestamp' value='1243822502499'/>
   </properties>
-  <children size='2'>
-    <child location='childOne'/>
-    <child location='childTwo'/>
+  <children size='4'>
+    <child location='../eclipse/updates/3.7milestones/S-3.7RC5-201106131736'/>
+    <child location='../eclipse/org/releases/indigo/current'/>
+    <child location='../spring/org/springframework/current'/>
+    <child location='../springdm/org/springframework/osgi/current'/>
   </children>
 </repository>
 **************/
@@ -20,9 +22,11 @@ metadataXml.repository('name':'&quot;Eclipse Project Test Site&quot;','type':'or
     properties(size:'1') {
         property(name:'p2.timestamp', value:'1243822502499')
     }
-    children(size:'2') {
-        child(location:'childOne')
-	child(location:'childTwo')
+    children(size:'4') {
+        child(location:'../eclipse/updates/3.7milestones/S-3.7RC5-201106131736')
+	child(location:'../eclipse/org/releases/indigo/current')
+	child(location:'../spring/org/springframework/current')
+	child(location:'../springdm/org/springframework/osgi/current')
     }
 }
 
@@ -46,9 +50,11 @@ def artifactXml = new MarkupBuilder(artifactWriter)
   <properties size='1'>
     <property name='p2.timestamp' value='1243822502440'/>
   </properties>
-  <children size='2'>
-    <child location='childOne'/>
-    <child location='childTwo'/>
+  <children size='4'>
+    <child location='../eclipse/updates/3.7milestones/S-3.7RC5-201106131736'/>
+    <child location='../eclipse/org/releases/indigo/current'/>
+    <child location='../spring/org/springframework/current'/>
+    <child location='../springdm/org/springframework/osgi/current'/>
   </children>
 </repository>
 **************/
@@ -56,9 +62,11 @@ artifactXml.repository('name':'&quot;Eclipse Project Test Site&quot;','type':'or
     properties(size:'1') {
         property(name:'p2.timestamp', value:'1243822502499')
     }
-    children(size:'2') {
-        child(location:'childOne')
-	child(location:'childTwo')
+    children(size:'4') {
+        child(location:'../eclipse/updates/3.7milestones/S-3.7RC5-201106131736')
+	child(location:'../eclipse/org/releases/indigo/current')
+	child(location:'../spring/org/springframework/current')
+	child(location:'../springdm/org/springframework/osgi/current')
     }
 }
 
