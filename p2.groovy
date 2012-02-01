@@ -13,6 +13,7 @@ def metadataXml = new MarkupBuilder(metadataWriter)
   <children size='4'>
     <child location='../eclipse/updates/3.7milestones/S-3.7RC5-201106131736'/>
     <child location='../eclipse/org/releases/indigo/current'/>
+    <child location='../eclipse/gemini/updates/web/2.0.1/current'/>
     <child location='../eclipse/org/jetty/updates/jetty-rt-3.7-N-builds/8.0.0.M3-SNAPSHOT'/>
     <child location='../spring/org/springframework/current'/>
     <child location='../springdm/org/springframework/osgi/current'/>
@@ -26,6 +27,7 @@ metadataXml.repository('name':'&quot;Eclipse Project Test Site&quot;','type':'or
     children(size:'4') {
         child(location:'../eclipse/updates/3.7milestones/S-3.7RC5-201106131736')
 	child(location:'../eclipse/org/releases/indigo/current')
+	child(location:'../eclipse/gemini/updates/web/2.0.1/current')
 	child(location:'../eclipse/org/jetty/updates/jetty-rt-3.7-N-builds/8.0.0.M3-SNAPSHOT')
 	child(location:'../spring/org/springframework/current')
 	child(location:'../springdm/org/springframework/osgi/current')
@@ -55,6 +57,7 @@ def artifactXml = new MarkupBuilder(artifactWriter)
   <children size='4'>
     <child location='../eclipse/updates/3.7milestones/S-3.7RC5-201106131736'/>
     <child location='../eclipse/org/releases/indigo/current'/>
+    <child location='../eclipse/gemini/updates/web/2.0.1/current'/>
     <child location='../eclipse/org/jetty/updates/jetty-rt-3.7-N-builds/8.0.0.M3-SNAPSHOT'/>
     <child location='../spring/org/springframework/current'/>
     <child location='../springdm/org/springframework/osgi/current'/>
@@ -68,6 +71,7 @@ artifactXml.repository('name':'&quot;Eclipse Project Test Site&quot;','type':'or
     children(size:'4') {
         child(location:'../eclipse/updates/3.7milestones/S-3.7RC5-201106131736')
 	child(location:'../eclipse/org/releases/indigo/current')
+	child(location:'../eclipse/gemini/updates/web/2.0.1/current')
 	child(location:'../eclipse/org/jetty/updates/jetty-rt-3.7-N-builds/8.0.0.M3-SNAPSHOT')
 	child(location:'../spring/org/springframework/current')
 	child(location:'../springdm/org/springframework/osgi/current')
